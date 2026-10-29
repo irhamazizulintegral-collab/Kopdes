@@ -6,8 +6,10 @@ import firebaseConfig from '../firebase-applet-config.json';
 // Initialize Firebase App
 const app = initializeApp(firebaseConfig);
 
-// Initialize Firestore with database ID (CRITICAL: Required for multi-database instances)
-export const db = getFirestore(app, firebaseConfig.firestoreDatabaseId);
+// Initialize Firestore (handles default database and named database instances)
+export const db = (firebaseConfig as any).firestoreDatabaseId && (firebaseConfig as any).firestoreDatabaseId !== '(default)'
+  ? getFirestore(app, (firebaseConfig as any).firestoreDatabaseId)
+  : getFirestore(app);
 
 // Initialize Firebase Auth
 export const auth = getAuth(app);

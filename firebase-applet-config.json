@@ -1,12 +1,10 @@
 {
-  "projectId": "skillful-timer-3pz3c",
-  "appId": "1:135279592328:web:2313353cdf88da3cf3b03d",
-  "apiKey": "AIzaSyB-CrjcN6lPLBd2C3mOXCV93nDi7ZMzvyw",
-  "authDomain": "skillful-timer-3pz3c.firebaseapp.com",
-  "firestoreDatabaseId": "ai-studio-37a78d34-8713-415e-8a60-44e5dc1e28ed",
-  "storageBucket": "skillful-timer-3pz3c.firebasestorage.app",
-  "messagingSenderId": "135279592328",
+  "projectId": "kopdes-d1c07",
+  "appId": "1:703289585071:web:b957238f09e43a49e1135a",
+  "apiKey": "AIzaSyARn_v3Iwh9cCwvoQb3wv22O9p6BdsBUzc",
+  "authDomain": "kopdes-d1c07.firebaseapp.com",
+  "storageBucket": "kopdes-d1c07.firebasestorage.app",
+  "messagingSenderId": "703289585071",
   "measurementId": "",
-  "oAuthClientId": "135279592328-ucnant9kuohdtknklmjhjhon4a44aoss.apps.googleusercontent.com",
-  "recaptchaSiteKey": ""
+  "firestoreDatabaseId": "(default)"
 }
